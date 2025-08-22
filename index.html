@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Taco Shop</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="imgs/favicon.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>LITTLE TACO SHOP</h1>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="header-nav">
+        <label for="menu-toggle" class="close-icon">&times;</label>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+            <a href="#menu">Our Menu</a>
+            <a href="hours.html">Store Hours</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="#our-staff">Our Staff</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="hero">
+        <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
+        <p>
+          <abbr title="Little Taco Shop">LTS</abbr> was founded in 2022.Our shop
+          was built from a <strong>love of tacos</strong>🌮🌮🌮.We hope our shop
+          <br />adds a unique and interesting place to our little town.
+        </p>
+        <h3>Taco Trivia</h3>
+        <aside lang="en">
+          <details>
+            <summary>When did Tacos first appear in the United States?</summary>
+            <p>
+              Jeffrey M. Pilcher, historian and professor of history at the
+              University of Minnesota,says the earliest mention of Tacos in the
+              United States are in a newspaper from 1905.
+            </p>
+          </details>
+        </aside>
+      </section>
+
+      <section id="menu" class="food-menu">
+        <h2>Our Menu</h2>
+        <table aria-label="Tacos menu with prices">
+          <caption>
+            Our Tacos
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Tacos</th>
+              <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">Crunchy</td>
+              <td>1</td>
+              <td>$1.50</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$2.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$3.25</td>
+            </tr>
+            <tr>
+              <td rowspan="3">Soft</td>
+              <td>1</td>
+              <td>$2.00</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$3.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$4.50</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Chips & Salsa $2</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section class="container" id="our-staff">
+        <h2>OUR ESTEEMED STAFF</h2>
+        <div class="cards">
+          <article class="cards" id="card1">
+            <h3>Restaurant Owner</h3>
+            <figure>
+              <img
+                src="imgs/istockphoto-1386479313-612x612.jpg"
+                alt="Owner"
+                width="612"
+                height="408"
+              />
+              <figcaption>Mercy</figcaption>
+            </figure>
+            <p>
+              As the founder of Little Taco Shop,Mercy has a passion for
+              creating a place where good food and great company come together.
+              With over 15 years of experience in the food and hospitality
+              industry, Mercy has worked in every role from busser to head chef,
+              gaining a deep understanding of what it takes to run a successful
+              restaurant. Mercy is committed to using fresh, local ingredients
+              to bring the best possible tacos to the community.
+            </p>
+          </article>
+
+          <article class="cards" id="card2">
+            <h3>Restaurant Chef</h3>
+            <figure>
+              <img
+                src="imgs/chef.jpg"
+                alt="Chef Karen"
+                width="612"
+                height="408"
+              />
+              <figcaption>Karen</figcaption>
+            </figure>
+            <p>
+              Chef Karen brings her innovative flair and a deep-seated love for
+              Latin American cuisine to the Little Taco Shop kitchen. A graduate
+              of the Culinary Institute of America, Chef Karen has honed her
+              skills in some of the most prestigious kitchens in the country.
+              She is known for her creative specials and for pushing the
+              boundaries of traditional taco flavors while staying true to their
+              roots. Her personal motto is "Tacos are a canvas for endless
+              creativity."
+            </p>
+          </article>
+
+          <article class="cards" id="card3">
+            <h3>Restaurant Manager</h3>
+            <figure>
+              <img
+                src="imgs/restaurantmanager.jpg"
+                alt="Resaturant manager"
+                width="612"
+                height="408"
+              />
+              <figcaption>David</figcaption>
+            </figure>
+            <p>
+              David is the driving force behind the seamless operation of Little
+              Taco Shop. With a background in business management and a true
+              talent for creating a welcoming atmosphere, he ensures every
+              customer has an exceptional dining experience. David is a master
+              of logistics, from coordinating staff to managing inventory, and
+              he works tirelessly to make sure the restaurant runs like a
+              well-oiled machine. He is a firm believer that great service is
+              just as important as great food.
+            </p>
+          </article>
+
+          <article class="cards" id="card4">
+            <h3>Marketing Director</h3>
+            <figure>
+              <img
+                src="imgs/marketingdirector.jpg"
+                alt="Marketing Director"
+                width="612"
+                height="408"
+              />
+              <figcaption>Sarah</figcaption>
+            </figure>
+            <p>
+              Sarah is the creative mind responsible for sharing the Little Taco
+              Shop story with the world. With over a decade of experience in
+              digital marketing and brand strategy, she crafts all our online
+              content, manages our social media, and plans all our community
+              events. Sarah is passionate about connecting with customers and
+              building a strong, vibrant brand that reflects the heart of the
+              business. She is a true taco enthusiast and is always looking for
+              new ways to get the word out.
+            </p>
+          </article>
+
+          <article class="cards" id="card5">
+            <h3>Human Resource Manager</h3>
+            <figure>
+              <img
+                src="imgs/humanresourcemanager.jpg"
+                alt="Human Resource Manager"
+                width="612"
+                height="408"
+              />
+              <figcaption>Mark</figcaption>
+            </figure>
+            <p>
+              Mark is dedicated to cultivating a positive and supportive work
+              environment for every member of the Little Taco Shop family. He
+              handles all aspects of talent management, from recruiting and
+              training new employees to developing programs that foster team
+              collaboration and professional growth. Mark believes that a happy
+              and motivated staff is the key ingredient to a successful
+              restaurant, and he works to ensure everyone feels valued and
+              respected.
+            </p>
+          </article>
+
+          <article class="cards" id="card6">
+            <h3>Our Accountant</h3>
+            <figure>
+              <img
+                src="imgs/istockphoto-1399788030-612x612.jpg"
+                alt="Accountant"
+                width="612"
+                height="408"
+              />
+              <figcaption>Jessica Lee</figcaption>
+            </figure>
+            <p>
+              Jessica is the financial wizard who keeps Little Taco Shop's books
+              in perfect order. With her sharp analytical skills and a
+              meticulous eye for detail, she manages our budgets, payroll, and
+              financial reports. Jessica is a Certified Public Accountant (CPA)
+              and is an expert in helping small businesses thrive. She is
+              passionate about financial transparency and ensuring the business
+              is on a solid foundation for future growth.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <a href="#" class="backtotop">Back to Top</a>
+      </p>
+
+      <hr />
+      <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+  </body>
+</html>
